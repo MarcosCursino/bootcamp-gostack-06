@@ -25,6 +25,7 @@ module.exports = {
     'prettier'
   ],
   rules: {
+    "react/prop-types": ["error", { "ignore": ["navigation"] }],
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': [
       'warn',

@@ -84,3 +84,8 @@ export const ProfileButtonText = styled.Text`
   color: #fff;
   text-transform: uppercase;
 `;
+
+export const User = styled.View`
+  align-items: center;
+  margin: 0 20px 30px;
+`;
